@@ -1,0 +1,24 @@
+console.log(13 % 2);
+console.log(13 / 2);
+console.log(5 ** 2);
+console.log(5 ** 3);
+console.log(Math);
+console.log(Math.PI);
+console.log(Math.SQRT2);
+console.log(Math.sqrt(64));
+console.log(Math.ceil(5.99));
+console.log(Math.floor(5.99));
+console.log(Math.floor(5.999999999999999999999999999999999999999));
+console.log(Math.ceil(-4.4));
+console.log(Math.floor(-4.4));
+console.log(Math.round(2.3));
+console.log(Math.round(2.5));
+console.log(Math.round(-2.4));
+console.log(Math.round(-2.9));
+console.log(Math.random()); // outputs between 0 to 1
+console.log(Math.floor(Math.random() * 100));
+console.log(Math.floor(Math.random() * 10 + 10));
+console.log(1 / 0);
+console.log(-1 / 0);
+console.log(0 / 0);
+document.write("hello, people of the internet!");
