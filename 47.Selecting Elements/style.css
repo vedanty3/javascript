@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(100, 220, 250);
+  margin: 40px;
+}
+
+#vadapav {
+  height: 350px;
+  width: 230px;
+  margin: 30px;
+}
