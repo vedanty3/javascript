@@ -236,3 +236,45 @@ function getPromise() {
 
 getPromise().then((res) => console.log(res));
 console.log("end");
+
+// example 21
+async function foo() {
+  return "hello world";
+}
+
+async function logger() {
+  const result = await foo();
+  console.log(result);
+  console.log("hi 1");
+  console.log("hi 2");
+}
+
+logger();
+
+// example 22
+function abc() {
+  console.log("hi");
+}
+
+const value = new abc();
+console.log(value);
+
+// example 23
+let details = {
+  user: "vedantyetekar",
+  age: 21,
+};
+
+const { user, age } = details;
+console.log(user, age);
+
+// example 24
+let userDetails = {
+  "user-name": "vedantyetekar",
+  age: 21,
+};
+
+console.log(userDetails["user-name"]);
+
+const { "user-name": username, age } = userDetails;
+console.log(username, age);
