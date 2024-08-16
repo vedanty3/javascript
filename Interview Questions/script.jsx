@@ -49,5 +49,3 @@ export function App() {
     </div>
   );
 }
-
-// 01:30:54
