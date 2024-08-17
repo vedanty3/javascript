@@ -49,3 +49,18 @@ export function App() {
     </div>
   );
 }
+
+// example 3
+export function App(props) {
+  const [counter, setCounter] = useState(0);
+  const countRef = useRef(0);
+
+  return (
+    <div>
+      <p>CountRef: {countRef.current}</p>
+      <button onClick={() => (countRef.current += 1)}>add</button>
+      <p>CountState: {counter} </p>
+      <button onClick={() => setCounter(counter + 1)}>add</button>
+    </div>
+  );
+}
