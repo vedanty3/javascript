@@ -48,5 +48,3 @@ links.forEach((link) => {
   console.log(link.classList);
   console.log(link.className);
 });
-
-// 57
